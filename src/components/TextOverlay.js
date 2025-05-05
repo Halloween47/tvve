@@ -1,6 +1,5 @@
 // components/TextOverlay.js
 import React from 'react';
-
 const TextOverlay = ({ currentTime, texts }) => {
   return (
     <div style={{ position: 'relative' }}>

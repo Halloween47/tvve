@@ -2,8 +2,8 @@
 import VideoPlayer from '../components/VideoPlayer';
 import TextOverlay from '../components/TextOverlay';
 
-const Home = () => {
-  const videoSrc = '/videos/sample-video.mp4';
+const TestForm = () => {
+  const videoSrc = '/videos/test.mp4';
   const texts = [
     { content: 'Hello World!', start: 2, end: 5, top: '10px', left: '10px', color: 'white', fontSize: '24px' },
     { content: 'Next.js is awesome!', start: 6, end: 9, top: '50px', left: '50px', color: 'red', fontSize: '20px' },
@@ -19,4 +19,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default TestForm;

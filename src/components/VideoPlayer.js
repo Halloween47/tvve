@@ -1,4 +1,5 @@
 // components/VideoPlayer.js
+'use client'
 import React, { useRef, useState } from 'react';
 
 const VideoPlayer = ({ src, children }) => {
